@@ -1,0 +1,15 @@
+.sketch-box {
+    background: yellow;
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-square {
+    background: pink;
+    width: 28px;
+    height: 28px;
+    border: 1px solid black;
+}
