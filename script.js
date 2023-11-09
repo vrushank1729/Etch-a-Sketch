@@ -6,4 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
       grid_square.classList.add('grid-square');
       sketch_box.appendChild(grid_square);
     }
+
+    const grid_squares = document.querySelectorAll('.grid-square')
+    grid_squares.forEach((square) => {
+        square.addEventListener('mouseover', () => {
+            square.style.background = 'white'
+        })
+    })
+
   })
