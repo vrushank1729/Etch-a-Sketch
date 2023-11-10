@@ -7,9 +7,24 @@
     justify-content: space-around;
 }
 
-.grid-square {
-    background: pink;
-    width: 28px;
-    height: 28px;
-    border: 1px solid black;
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.header {
+    margin-left: 10%;
+    font-size: 37px;
+}
+
+.btn {
+    width: 400px;
+    height: 60px;
 }
